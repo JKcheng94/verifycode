@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <title>生成验证码</title>
+</head>
+<body>
+    <span>验证码：</span>
+    <input class="incheck" type="text" style="border: 1px black solid; height: 20px; width: 300px; vertical-align: middle;">
+    <img class="varifycode" id="varifycode" style="text-align: center; vertical-align: middle;" src="1.jpg" onclick="reloadImage();">
+    <!--<button onclick="reloadImage();">换一张</button>-->
+    <button onclick="checkCode();">验证</button>
+</body>
+</html>
